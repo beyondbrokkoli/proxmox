@@ -1,0 +1,3 @@
+GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on iommu=pt vfio-pci.ids=10de:1380,10de:0fbc,10de:2582,10de:2291 video=efifb:off initcall_blacklist=sysfb_init default_hugepagesz=2M hugepagesz=2M hugepages=8256"
+
+### 8256 instead of 8192 for some extra space just in case
